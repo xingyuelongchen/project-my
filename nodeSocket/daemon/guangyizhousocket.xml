@@ -1,0 +1,33 @@
+<service>
+	<id>guangyizhousocket.exe</id>
+	<name>guangyizhouSocket</name>
+	<description>启动广艺舟socket服务</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>D:\www\project\node_modules\_node-windows@1.0.0-beta.5@node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>D:\www\project\nodeSocket\app.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>guangyizhouSocket wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.5</argument>
+	<argument>--wait</argument>
+	<argument>2</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<argument>--maxretries</argument>
+	<argument>40</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>DESKTOP-N5SVNGS</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>D:\www\project</workingdirectory>
+</service>

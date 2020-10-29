@@ -1,0 +1,36 @@
+2020-09-11 16:14:46 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\www\project\node_modules\_node-windows@1.0.0-beta.5@node-windows\lib\wrapper.js --file D:\www\project\nodeSocket\app.js --scriptoptions= --log "guangyizhouSocket wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined --maxretries 40
+2020-09-11 16:14:46 - Started 1896
+2020-09-11 16:28:31 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\www\project\node_modules\_node-windows@1.0.0-beta.5@node-windows\lib\wrapper.js --file D:\www\project\nodeSocket\app.js --scriptoptions= --log "guangyizhouSocket wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined --maxretries 40
+2020-09-11 16:28:31 - Started 9752
+2020-09-15 09:23:20 - Stopping guangyizhousocket.exe
+2020-09-15 09:23:20 - ProcessKill 9752
+2020-09-15 09:23:20 - Found child process: 10896 Name: conhost.exe
+2020-09-15 09:23:20 - Found child process: 5272 Name: node.exe
+2020-09-15 09:23:20 - Stopping process 10896
+2020-09-15 09:23:20 - Send SIGINT 10896
+2020-09-15 09:23:20 - SIGINT to 10896 failed - Killing as fallback
+2020-09-15 09:23:20 - Stopping process 5272
+2020-09-15 09:23:20 - Send SIGINT 5272
+2020-09-15 09:23:20 - SIGINT to 5272 failed - Killing as fallback
+2020-09-15 09:23:20 - Stopping process 9752
+2020-09-15 09:23:20 - Send SIGINT 9752
+2020-09-15 09:23:20 - SIGINT to 9752 failed - Killing as fallback
+2020-09-15 09:23:20 - Finished guangyizhousocket.exe
+2020-09-15 13:56:18 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\www\project\node_modules\_node-windows@1.0.0-beta.5@node-windows\lib\wrapper.js --file D:\www\project\nodeSocket\app.js --scriptoptions= --log "guangyizhouSocket wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined --maxretries 40
+2020-09-15 13:56:18 - Started 14376
+2020-09-21 14:28:05 - Stopping guangyizhousocket.exe
+2020-09-21 14:28:05 - ProcessKill 14376
+2020-09-21 14:28:05 - Shutdown exception
+Message:系统正在关机。
+
+Stacktrace:   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.WrapperService.GetChildPids(Int32 pid)
+   在 winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   在 winsw.WrapperService.StopIt()
+   在 winsw.WrapperService.OnShutdown()
+2020-09-21 14:28:21 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\www\project\node_modules\_node-windows@1.0.0-beta.5@node-windows\lib\wrapper.js --file D:\www\project\nodeSocket\app.js --scriptoptions= --log "guangyizhouSocket wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined --maxretries 40
+2020-09-21 14:28:21 - Started 5464
